@@ -55,12 +55,12 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    max-width: 450px;
+    max-width: 375px;
     background: white;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 
@@ -155,11 +155,36 @@ footer{
 .attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 375px) {
     body {
-        background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-mobile.svg);
+        background-image: url(images/pattern-background-desktop.svg);
         font-size: 14px;
     }
-
+    .container{
+        width: 50%;
+    }   
+        .text{
+            font-size: 23px;
+        }
+    
+        .pricing-box{
+            padding: 12px;
+        }
+    
+        .plan-box-left div {
+            margin-left: 10px;
+        }
+    
+        a.proceed-btn,
+        a.cancel-btn,
+        .plan-box a {
+            font-size: 13px;
+        }
+    
+        .text-content {
+            padding: 9% 7%;
+        }
+    }
+    
     
 }
