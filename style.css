@@ -47,7 +47,7 @@ body {
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0;
+    margin-top: 3rem;
 }
 
 .container {
@@ -63,20 +63,19 @@ body {
 
 }
 
-.h2{
+h2{
     color: hsl(223, 47%, 23%);
     font-weight: 900;
-    font-size: 32px;
     margin-bottom: 20px;
 }
 
-.p{
-    color: #8a8a8a;
+p{
+    color: hsl(224, 23%, 55%);
     margin-bottom: 25px;
 }
 
 .text{
-    margin: 20px 75px;
+    margin: 20px 50px;
 }
 
 .pricing-box{
@@ -93,7 +92,7 @@ body {
 .pricing-left {
     display: flex;
     align-items: center;
-    text-align: left;
+    justify-content: center;
 }
 
 .pricing-left div {
